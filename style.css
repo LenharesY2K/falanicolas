@@ -1,0 +1,30 @@
+
+body {
+  background-image: url('IMG/montanha.jpg');
+  background-size: cover; 
+  background-position: center;
+  background-attachment: fixed; 
+  background-repeat: no-repeat;
+}
+
+  code {
+      background-color: #f4f4f4;
+      padding: 2px 4px;
+      border-radius: 3px;
+      font-family: Consolas, Monaco, "Courier New", monospace;
+  }
+  .sidebar {
+      width: 250px;
+      position: fixed;
+      height: 100vh;
+      background-color: #343a40;
+    }
+    .sidebar .nav-link {
+      color: white;
+    }
+    .content {
+      margin-left: 250px; /* Mesma largura da sidebar */
+      padding: 20px;
+      width: 100%;
+    }
+    
